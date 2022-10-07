@@ -54,7 +54,7 @@ function App(){
                         )}
                         <div >
                             <button  type="button" className="btn btn-primary" onClick={getNewQuote}>New Quote</button>
-                            <a href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" + encodeURIComponent(
+                            <a href={"https://twitter.com/intent/tweet?hashtags=PiLiAppQuotes&related=freecodecamp&text=" + encodeURIComponent(
                                 '"' + randomQuote.text + '" ' + randomQuote.author
                             )} target="_blank" className="btn btn-primary" style={{marginLeft:10}}>
                                 <i className="fa-brands fa-twitter"></i>
